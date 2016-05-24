@@ -26,6 +26,14 @@ class ViewController: UIViewController {
     }
 
     @IBAction func convertToDogYearsPressed(sender: UIButton) {
+        
+        let stringFromTextField = enteredHumanYearsTextField.text!
+        let intFromString = Int( stringFromTextField )!
+        
+        dogYearsLabel.text = "\(intFromString * 7) Human years" //..... converts the age entered and updates label text
+        dogYearsLabel.hidden = false //................................ makes the label visible b/c its currently hidden
+        
+        enteredHumanYearsTextField.resignFirstResponder() //........... makes the keyboard hidden
     }
 
     @IBAction func convertToDogYearsActualPressed(sender: UIButton) {
