@@ -17,23 +17,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Human Years Here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="64I-Iz-VXq">
-                                <rect key="frame" x="20" y="28" width="223" height="30"/>
+                                <rect key="frame" x="20" y="28" width="264" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8f-EF-o3O">
-                                <rect key="frame" x="108" y="86" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8f-EF-o3O">
+                                <rect key="frame" x="20" y="86" width="264" height="56"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" image="dogYearsButton"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8M-l5-l9b">
-                                <rect key="frame" x="108" y="150" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8M-l5-l9b">
+                                <rect key="frame" x="20" y="162" width="264" height="56"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" image="realDogYearsButton"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xCu-a3-TzG">
-                                <rect key="frame" x="20" y="226" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AgeOfLaika" translatesAutoresizingMaskIntoConstraints="NO" id="xCu-a3-TzG">
+                                <rect key="frame" x="20" y="251" width="264" height="128"/>
                                 <animations/>
                             </imageView>
                         </subviews>
@@ -46,4 +46,9 @@
             <point key="canvasLocation" x="305" y="337"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="AgeOfLaika" width="1057" height="654"/>
+        <image name="dogYearsButton" width="264" height="56"/>
+        <image name="realDogYearsButton" width="264" height="56"/>
+    </resources>
 </document>
